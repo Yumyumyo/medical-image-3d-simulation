@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1440</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0" rowspan="2" colspan="2">
+    <layout class="QHBoxLayout" name="horizontalLayout_6" stretch="0,10,3">
+     <item>
+      <widget class="QWidget" name="widget_node_6" native="true">
+       <layout class="QGridLayout" name="gridLayout_62">
+        <property name="leftMargin">
+         <number>1</number>
+        </property>
+        <property name="topMargin">
+         <number>1</number>
+        </property>
+        <property name="rightMargin">
+         <number>1</number>
+        </property>
+        <property name="bottomMargin">
+         <number>1</number>
+        </property>
+        <item row="0" column="0" colspan="2">
+         <widget class="QFrame" name="frame_node_9">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_63">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item row="0" column="0">
+            <layout class="QGridLayout" name="gridLayout_73">
+             <item row="2" column="0">
+              <widget class="QComboBox" name="cbx_workmode">
+               <item>
+                <property name="text">
+                 <string>切割模式</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>預覽模式</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>內視鏡模式</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item row="16" column="0">
+              <widget class="QTextBrowser" name="textBrowser"/>
+             </item>
+             <item row="9" column="0">
+              <widget class="QPushButton" name="btn_cut">
+               <property name="text">
+                <string>切割</string>
+               </property>
+              </widget>
+             </item>
+             <item row="12" column="0">
+              <widget class="QWidget" name="widget_7" native="true">
+               <layout class="QVBoxLayout" name="verticalLayout_7"/>
+              </widget>
+             </item>
+             <item row="6" column="0">
+              <widget class="QWidget" name="widget_3" native="true">
+               <layout class="QVBoxLayout" name="verticalLayout_2"/>
+              </widget>
+             </item>
+             <item row="8" column="0">
+              <widget class="QPushButton" name="btn_mark">
+               <property name="text">
+                <string>標記</string>
+               </property>
+              </widget>
+             </item>
+             <item row="7" column="0">
+              <widget class="QPushButton" name="btn_select">
+               <property name="text">
+                <string>選取</string>
+               </property>
+              </widget>
+             </item>
+             <item row="15" column="0">
+              <widget class="QComboBox" name="cbx_switch">
+               <item>
+                <property name="text">
+                 <string>【請選擇視角】</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Posterior</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Anterior</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Right</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Left</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Superior</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Inferior</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item row="4" column="0">
+              <widget class="QLabel" name="label_16">
+               <property name="text">
+                <string>切割模式選擇</string>
+               </property>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QWidget" name="widget_5" native="true">
+               <layout class="QVBoxLayout" name="verticalLayout_4"/>
+              </widget>
+             </item>
+             <item row="10" column="0">
+              <widget class="QPushButton" name="btn_clear">
+               <property name="text">
+                <string>清標記</string>
+               </property>
+              </widget>
+             </item>
+             <item row="14" column="0">
+              <widget class="QLabel" name="label_17">
+               <property name="text">
+                <string>視角切換</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="0">
+              <widget class="QLabel" name="label">
+               <property name="text">
+                <string>工作模式選擇</string>
+               </property>
+              </widget>
+             </item>
+             <item row="11" column="0">
+              <widget class="QPushButton" name="btn_reset">
+               <property name="text">
+                <string>重置</string>
+               </property>
+              </widget>
+             </item>
+             <item row="5" column="0">
+              <widget class="QComboBox" name="cbx_cutmode">
+               <item>
+                <property name="text">
+                 <string>Line</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Plane</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Tube</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Simple</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item row="17" column="0">
+              <widget class="QWidget" name="widget_2" native="true"/>
+             </item>
+             <item row="0" column="0">
+              <layout class="QHBoxLayout" name="horizontalLayout_11">
+               <item>
+                <widget class="QPushButton" name="btn_undo">
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="btn_redo">
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="btn_save">
+                 <property name="text">
+                  <string/>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QWidget" name="viewer_container_5" native="true">
+       <layout class="QGridLayout" name="gridLayout_viewport_5" columnstretch="1,3">
+        <property name="leftMargin">
+         <number>1</number>
+        </property>
+        <property name="topMargin">
+         <number>1</number>
+        </property>
+        <property name="rightMargin">
+         <number>1</number>
+        </property>
+        <property name="bottomMargin">
+         <number>1</number>
+        </property>
+        <item row="0" column="0">
+         <widget class="QFrame" name="frame_2D_5">
+          <layout class="QVBoxLayout" name="verticalLayout_6">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item>
+            <widget class="QWidget" name="widget_sagittal_5" native="true">
+             <layout class="QGridLayout" name="gridLayout_50" columnstretch="0,0,0">
+              <property name="horizontalSpacing">
+               <number>3</number>
+              </property>
+              <item row="1" column="1">
+               <widget class="QSlider" name="Sld_sagittal_5">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="0" colspan="3">
+               <widget class="QWidget" name="render_sagittal_5" native="true">
+                <layout class="QGridLayout" name="gridLayout_51">
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item row="0" column="0">
+                  <layout class="QGridLayout" name="render_sagittal_layout_5"/>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QCheckBox" name="checkBox_sagittal">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="2">
+               <widget class="QPushButton" name="pushButton">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_coronal_5" native="true">
+             <layout class="QGridLayout" name="gridLayout_52" columnstretch="0,0,0">
+              <property name="horizontalSpacing">
+               <number>3</number>
+              </property>
+              <item row="2" column="1">
+               <widget class="QSlider" name="Sld_coronal_5">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="0" colspan="3">
+               <widget class="QWidget" name="render_coronal_5" native="true">
+                <layout class="QGridLayout" name="gridLayout_53">
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item row="0" column="0">
+                  <layout class="QGridLayout" name="render_coronal_layout_5"/>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item row="2" column="0">
+               <widget class="QCheckBox" name="checkBox_corona">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item row="2" column="2">
+               <widget class="QPushButton" name="pushButton_2">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item>
+            <widget class="QWidget" name="widget_axial_5" native="true">
+             <layout class="QGridLayout" name="gridLayout_54" columnstretch="0,0,0">
+              <property name="horizontalSpacing">
+               <number>3</number>
+              </property>
+              <item row="1" column="1">
+               <widget class="QSlider" name="Sld_axial_5">
+                <property name="orientation">
+                 <enum>Qt::Horizontal</enum>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="0" colspan="3">
+               <widget class="QWidget" name="render_axial_5" native="true">
+                <layout class="QGridLayout" name="gridLayout_55">
+                 <property name="leftMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="topMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="rightMargin">
+                  <number>0</number>
+                 </property>
+                 <property name="bottomMargin">
+                  <number>0</number>
+                 </property>
+                 <item row="0" column="0">
+                  <layout class="QGridLayout" name="render_axial_layout_5"/>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item row="1" column="0">
+               <widget class="QCheckBox" name="checkBox_axial">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="2">
+               <widget class="QPushButton" name="pushButton_3">
+                <property name="text">
+                 <string/>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item row="0" column="1">
+         <widget class="QWidget" name="widget_3D_5" native="true">
+          <layout class="QGridLayout" name="gridLayout_56">
+           <item row="0" column="0">
+            <widget class="QWidget" name="render_3D_5" native="true">
+             <layout class="QGridLayout" name="gridLayout_57">
+              <property name="leftMargin">
+               <number>0</number>
+              </property>
+              <property name="topMargin">
+               <number>0</number>
+              </property>
+              <property name="rightMargin">
+               <number>0</number>
+              </property>
+              <property name="bottomMargin">
+               <number>0</number>
+              </property>
+              <item row="0" column="0">
+               <layout class="QGridLayout" name="render_3D_layout_5"/>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+     <item>
+      <widget class="QWidget" name="widget_node_5" native="true">
+       <layout class="QGridLayout" name="gridLayout_58">
+        <property name="leftMargin">
+         <number>1</number>
+        </property>
+        <property name="topMargin">
+         <number>1</number>
+        </property>
+        <property name="rightMargin">
+         <number>1</number>
+        </property>
+        <property name="bottomMargin">
+         <number>1</number>
+        </property>
+        <item row="0" column="0" colspan="2">
+         <widget class="QFrame" name="frame_node_7">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Raised</enum>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_59">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item row="0" column="0">
+            <layout class="QGridLayout" name="gridLayout_71">
+             <item row="1" column="0">
+              <widget class="QLabel" name="label_12">
+               <property name="text">
+                <string>已匯入檔案</string>
+               </property>
+              </widget>
+             </item>
+             <item row="4" column="0">
+              <widget class="QTreeWidget" name="cutObjectsList">
+               <property name="lineWidth">
+                <number>1</number>
+               </property>
+               <property name="columnCount">
+                <number>5</number>
+               </property>
+               <column>
+                <property name="text">
+                 <string notr="true">顯示</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>選取</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>物件名稱</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>透明度</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>設定</string>
+                </property>
+               </column>
+              </widget>
+             </item>
+             <item row="3" column="0">
+              <widget class="QLabel" name="label_13">
+               <property name="text">
+                <string>切割物件列表</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QTreeWidget" name="importedFileList">
+               <property name="lineWidth">
+                <number>1</number>
+               </property>
+               <property name="columnCount">
+                <number>5</number>
+               </property>
+               <column>
+                <property name="text">
+                 <string notr="true">顯示</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>選取</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>物件名稱</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>透明度</string>
+                </property>
+               </column>
+               <column>
+                <property name="text">
+                 <string>設定</string>
+                </property>
+               </column>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <layout class="QHBoxLayout" name="horizontalLayout_9">
+               <item>
+                <widget class="QPushButton" name="btn_import">
+                 <property name="text">
+                  <string>import</string>
+                 </property>
+                </widget>
+               </item>
+               <item>
+                <widget class="QPushButton" name="btn_export">
+                 <property name="text">
+                  <string>export</string>
+                 </property>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="untitled.qrc"/>
+ </resources>
+ <connections/>
+</ui>
