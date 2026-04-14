@@ -25,8 +25,11 @@ The system allows users to explore 3D medical structures and perform simulated c
 - Apply machine learning for medical image analysis
 - Extend to surgical simulation applications
 
-## Demo
+## Project Proposal
+https://drive.google.com/file/d/13bdbaL6J9M8kZVIyOTeldFkO2TVqUbJc/view?usp=share_link
+
+## Demo Video
 https://drive.google.com/file/d/1ah3Sw1Slli4SzZRyknEYqZoQDDIiuxAy/view?usp=share_link
 
-## System display
+## System Display
 <img width="1200" height="645" alt="系統介面" src="https://github.com/user-attachments/assets/2d7a211a-5e38-4d38-84f3-7f7d93665629" />
